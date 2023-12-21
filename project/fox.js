@@ -24,5 +24,3 @@ function car(a,b){
 }
 var new_car=car(12,13);
 document.writeln(new_car);
-
-
