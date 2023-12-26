@@ -21,8 +21,8 @@ document.writeln(i+"",""+j);
 
 function car(a,b){
     var x=0;
-    x=a+b;
+    x=a*b;
     return x;
 }
-var new_car=car(7,29);
+var new_car=car(7,30);
 document.writeln(new_car);
