@@ -10,3 +10,7 @@ function alary(y){
 var msg=alary(11);
 document.writeln(msg);
 
+var str = "never give up";
+alert(str + "!!!");
+document.writeln(typeof(str) + "+dw");
+console.log(str + "+log");
