@@ -69,4 +69,3 @@ function stopEvent(event){
 		event.cancelBubble = true;
 	}
 }
-
