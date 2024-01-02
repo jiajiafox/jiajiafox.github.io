@@ -29,3 +29,37 @@ $b=3;
     print "28大於3答案是false";
   }
 ?>
+
+
+<?php
+$msg="哈囉大家好";
+$c=mb_strlen($msg);
+  if($c>10){
+    print "這個字串有" . $c . "個字，大於10";
+      }else if($c<10){
+    print "這個字串有" . $c ."個字，小於10";
+      }else{
+    print "這個字串有" . $c . "個字，等於10";
+  }
+?>
+
+
+<select >
+  <?php
+    $i=0;
+    while($i<=10){
+      echo "<option>$i</option>";
+      $i++;
+    }
+  ?>
+</select>
+
+
+<select>
+  <?php
+    for($a=0;$a<=30;$a++){
+      $b="<option>".$a."</option>";
+      echo "$b";
+    }
+?>
+</select>
