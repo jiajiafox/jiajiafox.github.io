@@ -1,3 +1,4 @@
+<!--
 5 + 5 = 10 <br>
 5 + 5 = <?php print 5+5;?> <br>
 5 + <?php print "5 = ".(5+5);?> <br>
@@ -28,7 +29,7 @@ $b=3;
       }else {
     print "28大於3答案是false";
   }
-?>
+?><br>
 
 
 <?php
@@ -41,7 +42,7 @@ $c=mb_strlen($msg);
       }else{
     print "這個字串有" . $c . "個字，等於10";
   }
-?>
+?><br>
 
 
 <select >
@@ -53,7 +54,7 @@ $c=mb_strlen($msg);
     }
   ?>
 </select>
-
+<br>
 
 <select>
   <?php
@@ -63,3 +64,36 @@ $c=mb_strlen($msg);
     }
 ?>
 </select>
+<br>
+-->
+
+
+<!--
+<?php
+$a=['windows','MacOS','Linux'];
+$a[3]='UNIX';
+print_r($a);
+?><br>
+<?php
+$a=array('windows','MacOS','Linux');
+$a[3]='UNIX';
+print_r($a);
+?><br>
+<?php
+$a=array(0=>'windows',
+         1=>'MacOS',
+         2=>'Linux');
+$a[3]='UNIX';
+print_r($a);
+?><br>
+-->
+
+<?php
+$a=['inform1'=>'name',
+   'inform2'=>'age',
+   'inform3'=>'address',
+   'inform4'=>'phone',
+   'inform5'=>'email'];
+
+print_r($a);
+?>
