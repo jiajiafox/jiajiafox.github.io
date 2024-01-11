@@ -1,33 +1,7 @@
 <?php
 require_once 'function.php';
+page_header('Hello I am Stanley!');
 ?>
-<!Doctype html>
-<html lang="zh-tw">
-
-<head>
-    <meta charset="UTF-8">
-    <title>Hello I'm Stanley!</title>
-    <link rel="icon" href="image/iconeork.png" type="image/x-icon" />
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
-    <!--    <script type="text/javascript" src="stanley.js"></script>-->
-</head>
-
-<body>
-    <div class="container">
-        <header>
-            <table border="0">
-                <tr>
-                    <th><img src="image/green-island.jpg" width="135" height="150" align="center" boder="1"></th>
-                    <th align="left">
-                        <h1>Stanley-何嘉穎</h1>
-                        <strong>26/Male</strong>
-                    </th>
-                </tr>
-            </table>
-        </header>
         <section>
             <p> 居住於林口，畢業於國立高雄應用科技大學模具工程系光電模具組 ；大學期間於統一超商任職2年，且有與朋友合夥經營蝦皮賣場的經驗(販售理髮器等理髮工具)。
                 大學曾進入科盛科技公司實習一個月時間，並學會模流分析軟體的操作與應用，知道如何解決塑膠射出產品生產中的狀況與問題；也有跨系選修微機電 ，了解不同領域知識。
