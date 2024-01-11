@@ -1,6 +1,6 @@
 <?php
 require_once 'function.php';
-page_header('Hello I am Stanley!');
+page_header('Hello I am stanley!');
 ?>
         <section>
             <p> 居住於林口，畢業於國立高雄應用科技大學模具工程系光電模具組 ；大學期間於統一超商任職2年，且有與朋友合夥經營蝦皮賣場的經驗(販售理髮器等理髮工具)。
@@ -54,9 +54,7 @@ page_header('Hello I am Stanley!');
                 </tr>
             </table><br>
         </article>
-        <footer>
-            &copy;2024何嘉穎
-        </footer>
+  
     </div>
 
 </body>
