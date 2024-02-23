@@ -3,15 +3,19 @@
 class Dog(object):
     def __init__():
         pass
+    
     def work(self):
         print("旺旺!!")
 
 class AnyDog(Dog):
-    def dog_work(self):
+    def work(self):
         print("看門")
 
 class Person(object):
-    def work_with_dog(self):
-        
-d=AnyDog()
-d.dog_work()
+    def work_with_dog(self,dog):
+        dog.work()
+
+dog1=AnyDog() 
+
+per=Person()
+per.work_with_dog(dog1)
