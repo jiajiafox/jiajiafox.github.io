@@ -1,3 +1,5 @@
+# 刪除資料
+
 import mysql.connector
 mydb=mysql.connector.connect(
     host="localhost",
