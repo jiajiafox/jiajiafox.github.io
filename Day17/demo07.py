@@ -1,3 +1,5 @@
+# 查詢特定內容
+
 import mysql.connector
 mydb=mysql.connector.connect(
     host="localhost",
