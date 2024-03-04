@@ -10,5 +10,5 @@ mydb=mysql.connector.connect(
 mycursor=mydb.cursor()
 mycursor.execute("use testDB")
 
-#mycursor.execute("insert into students(name,age)values('Tom',35)")
-mydb.commit()   # 執行動作
+# mycursor.execute("insert into students(name,age)values('Tom',35)")
+mydb.commit()   # 輸入，修改，更新，啟動。
