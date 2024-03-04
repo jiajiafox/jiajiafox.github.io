@@ -1,3 +1,5 @@
+# 新增多筆資料
+
 import mysql.connector
 mydb=mysql.connector.connect(
     host="localhost",
