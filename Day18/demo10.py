@@ -8,5 +8,5 @@ print('----------')
 print(arr2)
 print('----------')
 
-result=np.hstack([arr1,arr2])   #合併(二維度的合併)
+result=np.hstack((arr1,arr2))   #合併(二維度的合併)
 print(result)
