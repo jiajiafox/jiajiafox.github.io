@@ -10,7 +10,9 @@ empty_array=np.eye(3)           # [[1. 0. 0.]
                                  # [0. 0. 1.]]
 
 empty_array[0,0]=3  # or empty_array[0][0]=3
-empty_array[0]=3
+# empty_array[0]=3
+
+
 
 
 
