@@ -2,10 +2,10 @@ from openpyxl import Workbook
 import openpyxl
 # 建立檔案
 fileName="README.xlsx"
-# wb=Workbook()   
-# wb.save(fileName)
+wb=Workbook()   
+wb.save(fileName)
 
-# 讀取
+# # 讀取
 wb=openpyxl.load_workbook(fileName)
 
 # 設定工作表
@@ -19,6 +19,10 @@ s1.cell(1,2).value=30   # cell(1,2) 代表第一行第二個欄位
 s1.cell(2,2).value=5
 s1.cell(3,2).value=20
 s1.cell(4,2).value=20
+s1.cell(1,3).value=300
+s1.cell(2,3).value=50
+s1.cell(3,3).value=200
+s1.cell(4,3).value=200
 
-# 存入Excel
+# # 存入Excel
 wb.save(fileName)
