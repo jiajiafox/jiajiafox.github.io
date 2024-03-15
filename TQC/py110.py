@@ -1,3 +1,5 @@
+# 基本程式設計，正n邊形面積計算
+
 import math
 n=int(input())
 s=int(input())
