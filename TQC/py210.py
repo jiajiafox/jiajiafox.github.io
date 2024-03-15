@@ -1,3 +1,5 @@
+# 選擇敘述，三角形判斷
+
 a=int(input())
 b=int(input())
 c=int(input())
