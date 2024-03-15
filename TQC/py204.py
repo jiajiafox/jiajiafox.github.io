@@ -1,3 +1,5 @@
+# 選擇敘述，算術運算
+
 a=int(input())
 b=int(input())
 c=input()
