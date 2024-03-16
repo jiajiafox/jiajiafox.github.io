@@ -1,7 +1,0 @@
-# 選擇敘述，三角形判斷
-
-a=int(input())
-b=int(input())
-c=int(input())
-if(a+b>c and a+c>b and b+c>a):print(a+b+c)
-else:print("Invalid")
