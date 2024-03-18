@@ -7,4 +7,4 @@ for i in range(n):
     while(tmp>0):
         sum+=tmp%10
         tmp=tmp//10
-        print("Sum of all digits of %d is %d" %(num,sum))
+    print("Sum of all digits of %d is %d"%(num,sum))
